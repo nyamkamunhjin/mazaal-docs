@@ -1,15 +1,12 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
-  "contact": {
-    "title": "Contact ↗",
+  "index": "Welcome to Mazaal AI",  
+  "mazaal_ai": {
+    "title": "Mazaal AI ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://beta.mazaal.ai",
     "newWindow": true
+  },
+  "hello": {
+    "title": "Hello"
   }
 }

@@ -1,18 +1,14 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
+import Image from 'next/image'
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
-  project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
-  },
-  chat: {
-    link: 'https://discord.com',
-  },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  logo: <Image className='h-20' src={`/mazaal-logo-mini.svg`} width={40} height={40} alt="Mazaal Logo" />,
   footer: {
-    text: 'Nextra Docs Template',
+    text: 'Mazaal AI',
   },
+  primaryHue: 18,
+  primarySaturation: 100,
 }
 
 export default config
