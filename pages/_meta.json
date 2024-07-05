@@ -5,8 +5,5 @@
     "type": "page",
     "href": "https://beta.mazaal.ai",
     "newWindow": true
-  },
-  "hello": {
-    "title": "Hello"
   }
 }
